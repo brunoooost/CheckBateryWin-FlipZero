@@ -1,5 +1,12 @@
 GUI r
 DELAY 250
-STRING powershell -w h -NoP powercfg batteryreport | Set-Clipboard
+STRING powershell -w h -NoP powercfg /batteryreport /Desktop/battery-report.html
 DELAY 500
+ENTER
+GUI r 
+DELAY 250
+ENTER
+DELAY 250
+STRING battery-report.html
+DELAT 500
 ENTER
