@@ -1,6 +1,5 @@
 GUI r
 DELAY 250
-STRING CMD 
-DELAY 250
+STRING powershell -w h -NoP powercfg batteryreport | Set-Clipboard
+DELAY 500
 ENTER
-STRING POWERCFG BATTERYREPORT
