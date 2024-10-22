@@ -1,3 +1,8 @@
+REM =======================================
+REM payload by bst04
+REM For Windows Devices
+REM =======================================
+
 GUI r
 DELAY 250
 STRING powershell -w h -NoP powercfg /batteryreport /Desktop/battery-report.html
